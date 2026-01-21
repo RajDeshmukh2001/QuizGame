@@ -11,19 +11,19 @@ public class QuestionBank {
     public QuestionBank() {
         questions.add(new MCQQuestion(
                 "What is the capital of India?",
-                new String[]{"Delhi", "Mumbai", "Chennai", "Kolkata"},
+                List.of("Delhi", "Mumbai", "Chennai", "Kolkata"),
                 "Delhi"
         ));
 
         questions.add(new MCQQuestion(
                 "Which language is used for Android development?",
-                new String[]{"Python", "Java", "C++", "PHP"},
+                List.of("Python", "Java", "C++", "PHP"),
                 "Java"
         ));
 
         questions.add(new MCQQuestion(
                 "Which concept is used to hide data in OOP?",
-                new String[]{"Inheritance", "Encapsulation", "Polymorphism", "Abstraction"},
+                List.of("Inheritance", "Encapsulation", "Polymorphism", "Abstraction"),
                 "Encapsulation"
         ));
     }
