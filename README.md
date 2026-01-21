@@ -13,8 +13,6 @@ No external libraries are used.
 ---
 
 ## 🎯 Objectives
-- Learn and apply core **OOP concepts**
-- Practice **Git and GitHub** using a real project
 - Understand **project flow and structure**
 - Follow **industry-style version control practices**
 
